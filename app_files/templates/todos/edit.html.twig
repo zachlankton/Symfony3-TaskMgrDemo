@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <style>
+        button {
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+{% endblock %}
+
+{% block title %}Edit Todos{% endblock %}
+
+{% block body %}
+    <h1>Edit Todos</h1>
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <button class="btn">{{ button_label|default('Save') }}</button>
+    {{ form_end(form) }}
+
+    <a href="{{ path('todos_index') }}"><button>Cancel</button></a>
+{% endblock %}

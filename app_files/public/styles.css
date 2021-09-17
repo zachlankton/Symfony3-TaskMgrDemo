@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+}
+
+form > #todos > div {
+    margin: 10px;
+}
+
+form > #todos label {
+    display: block;
+}
+
+form > #todos.add-new-form-table label {display: none; }
