@@ -2,7 +2,7 @@
 
 ## Installation
 
-### * This Requires Docker installed *
+### * This Requires Docker *
 
 Clone this repo into your local machine with docker already installed and run
 
